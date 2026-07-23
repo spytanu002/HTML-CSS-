@@ -1,0 +1,14 @@
+.search-bar{
+  font-family: Arial;
+  font-size: 20px;
+  padding-left: 8px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  padding-right: 15pxpx;
+  padding-left: 15px;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ border-width:1px;
+ border-color: rgb(200, 200, 200);
+}

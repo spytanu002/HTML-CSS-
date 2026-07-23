@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <tital>13f.html</tital>
+    <head>
+    <style>
+      
+      div{
+        font-family: arial;
+      }
+      .tweet{
+        display: flex;
+        flex-direction: row;
+        width: 420px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+
+      .profile-picture{
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 25px;
+       
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      .tweet-column{
+       flex: 1;
+
+      }
+      .tweet-header{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+      }
+
+      .tweeter-author{
+        color: black;
+        margin-right: 5px;
+        font-weight: bold;
+      }
+
+      .tweet-author-handel{
+        color: rgb(98, 98, 98);
+      }
+      .tweet-content{
+      line-height: 20px;
+      margin-bottom: 15px;
+      }
+      .video-preview{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-radius:5px;
+        border-color: rgb(200, 200, 200);
+      }
+      
+      .thumbnail-column{
+        height: 80px;
+        width: 120px;
+        background-color: rgb(200, 200, 200);
+        margin-right: 10px; 
+      }
+      .video-info-column{
+        flex-direction: 1;
+      }
+      .video-webside{
+        color: gray;
+        margin-bottom: 5px;
+      }
+      .video-tilel{
+        line-height: 22px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="profile-picture-column">
+        <div class="profile-picture"></div>
+      </div>
+      <div class="tweet-column">
+        <div class="tweet-header">
+            <div class="tweeter-author">supersimle.dev </div>
+          <div class="tweet-author-handel">@SuperSimple.dev</div>
+        </div>
+       <div class="tweet-content">
+          What is banckend web development? A complete 
+          overview. New video is up
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-column"></div>
+            <div class="video-info-column">
+             <div class="video-webside">youtube.com</div>
+            <div class="video-tilel">
+              Backend web development - a 
+              complete overview( 2021)
+            </div>
+            </div>
+           
+          </div>
+
+        </div>
+
+      </div>
+      
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.purpal{
+      display: flex;
+      background-color: rgb(120, 82, 178);
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+     }
+
+     .home-text{
+      font-family: arial;
+      color: white;
+      font-weight: bold;
+      font-size:16px
+     }
+
+     .search-bar{
+      width: 500px;
+      padding-left: 15px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 20px;
+      border-style: solid;
+      font-size: 16px;
+     }
+     .button-download{
+      background-color:  rgb(120, 82, 178);
+      border-radius: 2px;
+      border-style: solid;
+      border-color: white;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      padding-top:10px;
+      padding-bottom: 10px;
+      padding-right: 15px;
+      padding-left: 15px;
+      border-radius: 1px;
+     }

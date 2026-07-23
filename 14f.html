@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  <tital>14f.html</tital>
+ <style>
+  .sidebar{
+    position:fixed;
+    width:70px;
+    bottom:0;
+    background-color: rgb(37, 37, 37);
+    top: 0;
+    left: 0;
+  }
+  .cat{
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius:25px;
+    margin: 10px;
+  }
+
+  .sidebar-2{
+    width: 200px;
+    background-color: rgb(54, 54, 54);
+    top: 0;
+    bottom: 0;
+    left: 70px;
+    position: fixed;
+  }
+  .info-sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  .info{
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+  }
+.plus{
+  color: gray;
+    font-family: arial;
+    font-size: 25px;
+}
+  .brief{
+    color: gray;
+    font-family: arial;
+    margin: 10px;
+  }
+ </style>
+</head>
+<body>
+  <div class="sidebar">
+   <div class="cat"> </div>
+   <div class="cat"> </div>
+   <div class="cat"> </div>
+  </div>
+  <div class="sidebar-2">
+    <div class="info-sidebar">
+          <div class="info">
+      INFO</div>
+      <div class="plus">+</div>
+    </div>
+
+    
+    <div class="brief"># new-videos</div>
+    <div class="brief"># update</div>
+    <div class="brief"># faq</div>
+  </div>
+</body>

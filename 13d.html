@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tital>13d.html</tital>
+    <style>
+   div{
+        font-family: arial;
+        
+      }
+      .container{
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 15px;
+       padding-right: 15px;
+        width: 400px;
+        border-radius: 4px;
+        box-shadow: 0 0 5px rgba( 0, 0, 0, 0.25);
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      .inbox-label{
+        font-size: 15px;
+        color: gray;
+        margin-left: 5px;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .cat{
+        height: 60px;
+        width: 60px;
+        background-color: aqua;
+        border-radius: 40px;
+        margin: 8px;
+      }
+
+      .email-content{
+       flex: 1;
+      }
+      .email-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       margin-bottom: 3px; 
+       align-items: center;
+      }
+
+      .sender-name{
+        font-weight: bold;
+        font-size: 18px;
+      
+        
+      }
+      .send-time{
+        
+        font-size: 14px;
+         margin-bottom: 2px;
+        color: gray; 
+           }
+
+      .subject{
+        font-size: 15px;
+        font-weight: bold;
+        
+      }
+      .massage{
+        color: gray;
+        font-size: 14px;
+      
+      }
+    </style>
+   
+  </head>
+  <body>
+ 
+      <div class="container">
+        <div class="inbox-label">ALL INBOXES</div>
+         <div class="email">
+           <div class="picture-content"> 
+            <div class="cat"></div>
+              </div>
+        
+           <div class="email-content">
+            <div class="email-header">
+             <div class="sender-name">Chewy promotions</div>
+             <div class="send-time">4:58PM</div>
+              </div>
+         
+            <div class="subject">Biggest sale of the year</div>
+             <div class="massage">
+              Hey there! We'er writing to tell you about our...
+              </div>
+                </div>
+          </div>
+
+           <div class="email">
+           <div class="picture-content"> 
+            <div class="cat"></div>
+              </div>
+        
+           <div class="email-content">
+            <div class="email-header">
+             <div class="sender-name">Best Buy</div>
+             <div class="send-time">12:32PM</div>
+              </div>
+         
+            <div class="subject">Your Best Buy eReceipt</div>
+             <div class="massage">
+              Thank you for shopping at Best Buy, here is...
+              </div>
+                </div>
+          </div>
+
+           <div class="email">
+           <div class="picture-content"> 
+            <div class="cat"></div>
+              </div>
+        
+           <div class="email-content">
+            <div class="email-header">
+             <div class="sender-name">Netflix</div>
+             <div class="send-time">9:00AM</div>
+              </div>
+         
+            <div class="subject">Here's what's coming soon to Netflix</div>
+             <div class="massage">
+              Brand new movies and shows, old favorites...
+              </div>
+                </div>
+          </div>
+       </div>
+  </body>
+</html>

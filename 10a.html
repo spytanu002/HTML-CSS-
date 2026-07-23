@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Layouts</title>
+    <style>
+      p{
+         font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+      }
+  .green{
+
+    width: 50px;
+    height: 50px;
+    background-color: rgb(46, 235, 46);
+    border-radius: 40px;
+  }
+
+.nest{
+  width: 60px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: top;
+}
+.cat{
+  display: inline-block;
+  width: 200px;
+}
+
+.one{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+.two,.three{
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+.follow{
+ background-color: rgb(24, 119,242);
+      color:white;
+      border:none;
+      padding-top:10px;
+      padding-bottom: 10px;
+      padding-left:20px;
+      padding-right:20px;
+      border-radius:4px;
+      font-size:16px;
+      display: inline-block;
+       vertical-align: top;
+} 
+.follow-one{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+ 
+}
+</style>
+  </head>
+</html>
+<body>
+  <div class="nest">
+    <div class="green"></div>
+  </div>
+  
+  <div class="cat">
+    <p class="one">
+      oliver
+    </p>
+    <p class="two">
+      the cat
+    </p>
+    <p class="three">
+      Popular
+    </p>
+  <div class="follow-one">
+<botton class="follow">
+     follow
+    </botton>
+  </div>
+    
+  </div>
+</body>

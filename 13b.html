@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tital>13b.html</tital>
+    <style>
+
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+
+
+      }
+      .colum1{
+        background-color: lightpink;
+        width: 100px;
+      }
+      .colum2{
+        background-color: lightblue;
+        width: 200px;
+      
+      }
+      .row2-item{
+        background-color: black;
+        color: white;
+      }
+
+      .row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      
+      }
+    </style>
+    <body>
+      <div class="flexbox">
+        <div class="colum1"></div>
+        <div class="colum2">
+          <div>row1</div>
+          <div class="row2">
+          <div class="row2-item">row2</div>
+          <div class="row2-item">row2</div>
+          </div>
+          
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
